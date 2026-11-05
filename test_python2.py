@@ -1,1 +1,5 @@
-print('Let\'s start Git' )
+age=int(input("Enter your age: "))
+if age < 18:
+    print("You are a minor.")
+else:  
+    print("You are an adult.")
